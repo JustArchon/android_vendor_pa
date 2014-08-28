@@ -228,3 +228,6 @@ endif
 ifeq (pa_yuga,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_yuga.mk
 endif
+ifeq (pa_e980,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_e980.mk
+endif
